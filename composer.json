@@ -1,23 +1,23 @@
 {
-    "name": "melipayamak/php",
+    "name": "payamoon/php",
     "type": "library",
     "version": "1.0.0",
-    "description": "A PHP wrapper for melipayamak's web services",
-    "keywords": ["melipayamak", "sms", "api"],
-    "homepage": "http://github.com/Melipayamak/melipayamak-php",
+    "description": "A PHP wrapper for payamoon's web services",
+    "keywords": ["payamoon", "sms", "api"],
+    "homepage": "http://github.com/payamoon/payamoon-php",
     "license": "MIT",
     "authors": [
         {
-            "name": "Melipayamak Team",
-            "email": "melipayamak.ir@gmail.com"
+            "name": "payamoon Team",
+            "email": "payamoon.ir@gmail.com"
         },
         {
             "name": "Ara Code It",
-            "email": "ahnara92@gmail.com"
+            "email": "saeed.hoorsfand@gmail.com"
         },
 	{
-	    "name": "Amirhossein Mehrvarzi",
-	    "email": "info@trigger.ir"
+	    "name": "saeed",
+	    "email": "info@payamoon.ir"
 	}
     ],
     "require": {
@@ -25,8 +25,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Melipayamak\\": "src/"
+            "payamoon\\": "src/"
         }
     },
     "minimum-stability" : "stable"
 }
+
